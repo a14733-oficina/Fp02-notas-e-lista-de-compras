@@ -131,7 +131,7 @@ PHP
     <title>Resultado da Média</title>
 </head>
 <body>
-    <h1>Resultado da Avaliação</h1>
+    <h1>Resultado do codico</h1>
     <p>A sua média é: **<?php echo $media; ?>**</p>
     <p>A sua situação é: **<?php echo $notaTexto; ?>**</p>
 </body>
