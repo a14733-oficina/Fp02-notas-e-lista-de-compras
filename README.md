@@ -1,8 +1,6 @@
-Análise Técnica do Projeto - FP02
-
 📝 Descrição do Projeto
 
-Este projeto consiste num conjunto de ficheiros que demonstram a interação básica entre formulários HTML e scripts de processamento PHP. O objetivo principal é ilustrar a submissão de dados de um formulário (client-side) para um script PHP (server-side) para processamento e apresentação de resultados.
+Este projeto consiste em formulários HTML e scripts de processamento PHP com o objetivo principal é ilustrar a submissão de dados de um formulário para um script PHP para processamento e apresentação de resultados.
 
 O projeto está dividido em duas funcionalidades principais:
 
@@ -10,16 +8,14 @@ O projeto está dividido em duas funcionalidades principais:
 Lista de Itens: Submissão de 5 itens e apresentação numa lista não ordenada.
 
 2.
-Cálculo de Média: Submissão de 5 notas e cálculo da média, com atribuição de um conceito de avaliação.
+Cálculo de Média: Submissão de 5 notas e cálculo da média e mostar a suteuação do aluno.
 
 🛠️ Tecnologias Utilizadas
 
-Tecnologia
-Propósito
 HTML5
 Criação dos formulários de entrada de dados.
 PHP
-Processamento dos dados submetidos (lógica de backend).
+Processamento dos dados submetidos.
 
 
 📂 Estrutura de Ficheiros
@@ -38,7 +34,7 @@ Plain Text
 
 💻 Análise Detalhada do Código
 
-1. HTML (Formulários)
+1. HTML 
 
 Os ficheiros form.html e nota.html são responsáveis pela interface de utilizador e pela recolha de dados.
 
