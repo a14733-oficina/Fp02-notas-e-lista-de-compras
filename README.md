@@ -136,23 +136,3 @@ PHP
     <p>A sua situação é: **<?php echo $notaTexto; ?>**</p>
 </body>
 </html>
-
-
-2. Validação de Dados em PHP
-
-Embora o HTML tenha validação client-side, o PHP deve sempre validar os dados recebidos.
-
-•
-Recomendação: Utilizar funções como isset(), empty(), e filter_var() para garantir que os dados existem, não estão vazios e são do tipo esperado (por exemplo, que as notas são números).
-
-3. Utilização de um Único Ficheiro PHP
-
-Para um projeto maior (como o "Total 90"), é comum usar um único script PHP para lidar com a submissão de múltiplos formulários, usando um campo oculto para identificar a ação.
-
-•
-Exemplo: Adicionar um campo <input type="hidden" name="action" value="calcular_media"> ao formulário e usar uma estrutura if/elseif no PHP para direcionar a lógica.
-
-4. Utilização de Funções
-
-Para melhorar a organização do código, a lógica de cálculo de média e classificação deve ser encapsulada numa função.
-
